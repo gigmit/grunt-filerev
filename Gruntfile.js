@@ -31,6 +31,7 @@ module.exports = function (grunt) {
       withConfig: {
         options: {
           algorithm: 'sha1',
+          divider: '-',
           length: 4
         },
         src: ['test/tmp/cfgfile.png']
